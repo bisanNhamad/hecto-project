@@ -1,0 +1,48 @@
+body
+{
+    font-family: var(#FB2E86);
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 0px;
+}
+.header ul
+{
+    display: flex;
+    gap: 35px;
+}
+.list a
+{
+    color: 0D0E43;
+}
+
+.header.active
+{
+    color: var(--primary);
+}
+.search form
+{
+    border: 1px solid #E7E6EF;
+}
+.search input
+{
+    border: none;
+    outline: none;
+    width: 250px;
+    padding-left: 9px;
+}
+.search button
+{
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    padding: 8px 13px;
+}
+.search form
+{
+    border: 1px solid #E7E6EF;
+    border-radius: 5px;
+}
