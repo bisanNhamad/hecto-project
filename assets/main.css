@@ -46,6 +46,26 @@ body
     border: 1px solid #E7E6EF;
     border-radius: 5px;
 }
+
+.clients
+{
+    padding: 50px 0;
+}
+.clients .row
+{
+    flex-wrap: wrap;
+    gap: 15px;
+    overflow-x: auto;
+}
+.clients .logo
+{
+    width: calc((100%-75px)/6);
+}
+.clients img
+{
+    width: 150px;
+    height: 150px;
+}
 .footer
 {
     background-color: #EEEFFB;
@@ -65,6 +85,10 @@ body
     border: 3px solid #E7E6EF;
     border-radius: 5px;
     display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .footer .right-side
 {
@@ -83,6 +107,13 @@ body
 .footer a, .address-info
 {
     color: #8A8FB9;
+}
+@media screen and(max-width:900px)
+{
+    .clients .logo
+    {
+        width: calc((100%-30px)/3);
+    }
 }
 @media screen and(max-width:992px)
 {
