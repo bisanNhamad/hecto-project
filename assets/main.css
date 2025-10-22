@@ -16,7 +16,7 @@ body
 }
 .list a
 {
-    color: 0D0E43;
+    color: #0D0E43;
 }
 
 .header.active
@@ -45,4 +45,25 @@ body
 {
     border: 1px solid #E7E6EF;
     border-radius: 5px;
+}
+.footer
+{
+    background-color: #EEEFFB;
+}
+.footer .right-side
+{
+    width: 60%;
+}
+.footer .left-side
+{
+    gap: 35px;
+    align-items: flex-start;
+}
+.footer-item
+{
+    gap: 45px;
+}
+.footer a, .address-info
+{
+    color: #8A8FB9;
 }
